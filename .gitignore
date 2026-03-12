@@ -1,0 +1,30 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+gems/
+vendor/bundle/
+
+# Node
+node_modules/
+
+# Mac
+.DS_Store
+
+# Environment files
+.env
+.env.*
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+
+# Build output
+*.log
+
+# Dependencies
+Gemfile.lock
