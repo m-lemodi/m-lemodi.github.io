@@ -1,75 +1,14 @@
-# Welcome to Jekyll!
-# This config file is meant for settings that affect your whole site.
-
-# Site settings
+# Basic Jekyll configuration
 title: Merlin FAREZ
-email: merlin.farez@epita.fr
-description: >-
-  Site personnel et blog de Merlin FAREZ - Ingénieur en Informatique
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://m-lemodi.github.io" # the base hostname & protocol for your site
-twitter_username: ""
-github_username: "m-lemodi"
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# GitHub Pages settings
-remote_theme: jekyll/minima
-
-# GitHub Pages requires this for proper URL generation
-url: "https://m-lemodi.github.io"
+description: Site personnel de Merlin FAREZ
 baseurl: ""
+url: "https://m-lemodi.github.io"
 
-# GitHub Pages compatible settings
+# Minimal setup
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+plugins: []
 
-# Enable future posts (useful for scheduling)
-future: false
-
-# Show drafts in development
-show_drafts: false
-
-# Limit posts for pagination
-paginate: 5
-paginate_path: "/blog/page:num/"
-
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title.html
-
-# Defaults
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "_posts"
-    values:
-      layout: "post"
-
-# Pagination (if needed)
-paginate: 5
-paginate_path: /blog/page:num/
+  - README.md

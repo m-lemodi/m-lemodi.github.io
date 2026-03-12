@@ -1,64 +1,12 @@
 ---
 layout: default
-title: CV - Merlin FAREZ
-lang: fr
+title: Accueil
 ---
 
-{% include header.html %}
+# Bienvenue sur mon site
 
-<section>
-  <h3>Expériences Professionnelles</h3>
-  <h4>Consultant en Cybersécurité, Lyon </h4>
-  <p><a href="https://www.wavestone.com"><em>Wavestone</em></a>, Octobre 2024 - Avril 2025</p>
-  <p>Conseil en gestion de projet, stratégie et transformation digitale</p>
-  <ul>
-    <li>Conduite d’une Analyse de Risques selon la méthodologie EBIOS RM pour un gros client dans le secteur bio-médical</li>
-    <li>Expérience en gestion de projet par la direction d’une équipe mixte composée de spécialistes métiers et techniques</li>
-    <li>Benchmark des solutions GRC sur le marché</li>
-  </ul>
-  <h4>Ingénieur DevOps Stagiaire, Paris</h4>
-  <p><a href="https://www.bugali.com"><em>Bugali</em></a>, Février 2024 - Aout 2024</p>
-  <p>Stage dans l’équipe du Lab de Bugali</p>
-  <ul>
-    <li>Maintenance et mise à niveau de la plateforme de production, création et automatisation de tests avec Postman pour accélérer la vitesse de développent des équipes</li>
-    <li>Evolution de l’API pour les services back-end, conception d’un plugin pour un outil de test industriel (JavaScript)</li>
-    <li>Gestion des instances serveurs, mise à jour des droits utilisateurs (bash, adminsys)</li>
-    <li>Mise en place de la méthodologie agile dans une équipe de 6 personnes. Animation de démos pour présenter les dernières évolutions de l’infrastructure à l’entreprise</li>
-  </ul>
-  <h4>Ingénieur DevOps Stagiaire, Lille</h4>
-  <p><a href="https://www.scaleway.com"><em>Scaleway</em></a>, Septembre 2022 - Janvier 2023</p>
-  <p>Stage dans l’équipe WebHosting de Scaleway</p>
-  <ul>
-    <li>Conception d’un outil de migration de l’infrastructure et de la base de données pour un service legacy</li>
-    <li>Découverte des principes fondamentaux du DevOps : Kubernetes, Docker,Cloud Provider, CI/CD</li>
-  </ul>
-</section>
+Ceci est une page d'accueil basique pour tester Jekyll.
 
-<section>
-  <h3>Formation</h3>
-  <h4>Diplôme d'Ingénieur en Informatique, EPITA, 2021 - 2024</h4>
-  <p>Diplôme d’ingénieur en informatique, spécialisation en Informatique pour la Santé</p>
-  <ul>
-    <li>AI, IoT, Data engineering</li>
-  </ul>
-</section>
+## À propos
 
-<section>
-  <h3>Compétences</h3>
-  <ul>
-    <li><strong>Techniques : </strong>C/C++, Java, JavaScript, Golang, Python, SQL, Linux, bash, Docker, APIs, CI/CD</li>
-    <li><strong>Organisationnelles :</strong> Gestion de projet, Git, Méthodologie Agile</li>
-    <li><strong>Langues :</strong> Français (natif), Anglais (courant)</li>
-  </ul>
-</section>
-
-<section>
-  <h3>Engagement associatif</h3>
-  <h4>Animateur de sessions de sensibilisation à l'informatique, Prologin, depuis 2023</h4>
-  <p>Membre actif de Prologin, association promouvant l’informatique auprès des jeunes partout en France</p>
-  <ul>
-    <li>Organisation d'ateliers pour initier les jeunes à la programmation</li>
-    <li>Responsable régional AURA-PACA & DROM-COM</li>
-    <li>Compétences liées : communication, enseignement de la programmation, vulgarisation scientifique, micro-contrôleurs </li>
-  </ul>
-</section>
+Site personnel de Merlin FAREZ - Ingénieur en Informatique.
